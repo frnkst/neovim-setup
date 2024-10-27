@@ -17,3 +17,8 @@
 
 - Tmux (https://github.com/gpakosz/.tmux)
 - Lazyvim (https://www.lazyvim.org/installation)
+
+## .config/nvim/config/keymaps.lua
+
+Add this line:
+- vim.keymap.set('i', 'jk', '<esc>', { silent = true })k
